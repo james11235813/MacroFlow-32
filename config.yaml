@@ -1,0 +1,98 @@
+server:
+  url: ws://192.168.232.14/ws
+
+
+
+# type --> page --> 
+type:
+  enc: #display
+      page:
+        1:
+          action:
+            click: [click, playpause]
+            long_click: [func, arg1]
+            double_click: [func, arg1]
+            rotation: [set_volume, value]
+        2:
+          action:
+            click: [click, playpause]
+            long_click: [func, arg1]
+            double_click: [func, arg1]
+            rotation: [set_volume, value]
+        3:
+          action:
+            click: [wled_toggle]
+            long_click: [func, arg1]
+            double_click: [func, arg1]
+            rotation: [wled_brightness, value]
+        4: 
+          action:
+            click: [func, arg1]
+            long_click: [func, arg1]
+            double_click: [func, arg1]
+            rotation: [func, arg1]
+
+  keypad:
+      page:
+        0:
+          1: #button
+            [open_url, youtube.com] #function
+          2:
+            [open_app, C:\Users\DELL\AppData\Roaming\Spotify\Spotify.exe]
+          3:
+            [open_url, speedtest.net]
+          4:  
+            [click, win,m]
+          5:
+            [print_text, button5]
+          6:
+            [print_text, button6]
+          7:
+            [print_text, button7]
+          8:
+            [print_text, button8]
+          9:
+            [print_text, button9]
+          10:
+            [wled_toggle]
+          11:
+            [print_text, button11]
+          12:
+            [print_text, button12]
+          13:
+            [print_text, button13]
+          14:
+            [click, win,ctrl,left]
+          15:
+            [click, win,ctrl,right]
+        1:
+          1: #button
+            [open_url, youtube.com] #function
+          2:
+            [print_text, button2]
+          3:
+            [print_text, button3]
+          4:  
+            [print_text, button4]
+          5:
+            [print_text, button5]
+          6:
+            [print_text, button6]
+          7:
+            [print_text, button7]
+          8:
+            [print_text, button8]
+          9:
+            [print_text, button9]
+          10:
+            [print_text, button10]
+          11:
+            [print_text, button11]
+          12:
+            [print_text, button12]
+          13:
+            [print_text, button13]
+          14:
+            [print_text, button14]
+          15:
+            [print_text, button15]
